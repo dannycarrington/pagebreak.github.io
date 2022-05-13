@@ -7,7 +7,4 @@ function toggleNav() {
     wrapper.classList.add("open");
   };
 }
-<script>
-var dt = new Date();
-document.getElementById('date-time').innerHTML=dt;
-</script>
+
