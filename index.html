@@ -11,8 +11,13 @@
 </head>
 
 <body>
-  <script src="script.js"></script>
-  <p>Current Date and Time is <span id='date-time'></span>.</p>
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+
 </body>
   
 <div id="wrapper" class="" onclick="toggleNav()">
