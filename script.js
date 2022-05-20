@@ -23,7 +23,7 @@ for (i = 0; i <= 90; i++) {
     }
     else if (isPrime(i)) {
       color = "blue"
-      
+    }
       document.getElementById("puzzle").innerHTML += `<button class="our-btn" style="border-color: ${color}"" onClick="alert('Could be this one?')">Button</button>`
   }
   
