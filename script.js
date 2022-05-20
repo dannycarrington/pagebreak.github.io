@@ -19,17 +19,11 @@ for (i = 0; i <= 90; i++) {
   else { // the normal buttondiv 
     color = "black"
     if (i == 61){
-      color = "red"
+      color = "black"
     }
     else if (isPrime(i)) {
       color = "blue"
-    }
-    else if (i % 2){
-      color = "red"
-    }
-    else if (i % 5){
-      color = "green"
-    }
+      
       document.getElementById("puzzle").innerHTML += `<button class="our-btn" style="border-color: ${color}"" onClick="alert('Could be this one?')">Button</button>`
   }
   
