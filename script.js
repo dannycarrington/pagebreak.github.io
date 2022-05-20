@@ -35,8 +35,6 @@ for (i = 0; i <= 90; i++) {
   
 }
 
-var myName = window.prompt("What's your name?");
-alert("Good luck " + (myName || "nobody"))
 
 function handlebtn(){
   let val = document.getElementById("value").value
