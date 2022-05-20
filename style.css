@@ -94,3 +94,7 @@ body {
 .input {
   right: 40px
 }}
+
+#question {
+margin: 10px;
+}
